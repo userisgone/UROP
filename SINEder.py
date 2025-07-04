@@ -1,6 +1,5 @@
 def process_feature_table(input_file, output_file):
     """
-    Process a feature table to extract SINE1 features with exact output format matching the screenshot.
     
     Args:
         input_file (str): Path to input feature table file
