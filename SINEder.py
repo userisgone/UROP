@@ -78,8 +78,8 @@ def process_feature_table(input_file, output_file):
 
 if __name__ == "__main__":
     #Rename as necessary for input and output files
-    input_file = "histolytica_feature_tables.txt"  # Your input file
-    output_file = "sine1_features.txt"  # Output file
+    input_file = "histolytica_feature_tables.txt"  # CHANGE AS APPROPRIATE: Your input file
+    output_file = "sine1_features.txt"  # CHANGE AS APPROPRIATE: Output file
     
     process_feature_table(input_file, output_file)
     print(f"Processing complete. Results saved to {output_file}")
